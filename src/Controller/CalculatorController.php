@@ -13,7 +13,7 @@ use Twig\Environment;
 
 class CalculatorController extends AbstractController
 {
-    #[Route('/calculator')]
+    #[Route('/')]
     public function calculate(Environment $twig, Request $request): Response
     {
         $calculator = new Calculator();
